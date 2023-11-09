@@ -1,0 +1,68 @@
+body {
+	background-color: #000000;
+	color: white;
+	font-family: 'Comic Sans MS', cursive;
+	padding: 20px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 20px;
+	background-color: white;
+}
+
+header ul {
+	display: flex;
+	align-content: space-between;
+	justify-content: center;
+	flex-direction: row;
+	list-style: none;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+	margin: 40px;
+}
+
+.content {
+	text-align: center;
+}
+
+.content img {
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+}
+
+.content p {
+	margin-bottom: 20px;
+}
+
+.roster-table,
+.victories-table {
+	width: 100%;
+	border: 2px solid white;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.roster-table th,
+.roster-table td,
+.victories-table th,
+.victories-table td {
+	border: 1px solid white;
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	position: bottom;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+}
